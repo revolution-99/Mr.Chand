@@ -1,0 +1,603 @@
+html{
+  font-size: 6.25%;
+}
+
+body{
+  background-color: #0A0A0A;
+}
+
+/*___________________________________________ Navbar Styling ___________________________________________*/
+.myNav {
+  position: fixed;
+  display: inline;
+  width: 100%;
+  overflow: hidden;
+  font-size: 20rem;
+  z-index: 10;
+  padding: 15rem 0rem 15rem 50rem;
+  margin: 20rem 0rem 0rem 0rem
+}
+.myNav a.active {
+  float: left;
+  margin: 15rem 300rem 0rem 0rem;
+  color: #00cf5d;
+}
+.myNav a {
+  float: left;
+  display: block;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  margin: 15rem 50rem 0rem 0rem;
+}
+.myNav .icon {
+  display: none;
+}
+
+.myNav a:hover {
+  background-color: none;
+  color: #00cf5d;
+}
+/* _______________________________________Intro Section _______________________________________________*/
+.intro{
+  display: flex;
+  padding: 300rem 0rem 0rem 0rem;
+  color: white;
+}
+
+.intro img{
+  max-height: 360rem;
+  max-width: 360rem;
+  object-fit: cover;
+  margin-top: -175rem;
+  margin-left: 220rem;
+  border-color: white;
+}
+
+.intro .text{
+  margin: -115rem 0rem 0rem 0rem;
+}
+.intro .text1{
+  font-size: 20rem;
+  color: #00cf5d;
+  font-family: 'Baloo Da 2', cursive;
+}
+.intro .text2{
+  font-size: 66rem;
+  font-family: 'Lato', sans-serif;
+}
+.intro .text3{
+  font-size: 22rem;
+  color: #00cf5d;
+  font-family: 'Baloo Da 2', cursive;
+}
+
+.intro .contactBox{
+  display: block;
+  margin: 140rem 115rem 0rem 0rem;
+}
+
+.intro .line{
+  background:#00cf5d;
+  height: 3rem;
+  width: 315rem;
+}
+
+.intro .btn {
+  background-color: black;
+  border-color: #00cf5d;
+  color: #00cf5d;
+  padding: 10rem 15rem;
+  text-align: center;
+  font-family: 'Baloo Da 2', cursive;
+  display: inline-block;
+  font-size: 16rem;
+  margin: -23rem 216rem;
+  cursor: auto;
+}
+
+.intro .leftIntro{
+  display: none;
+}
+
+.intro .socialIcons .fa-facebook {
+  color: white;
+  text-decoration: none;
+  margin-right : 25rem;
+  margin-bottom: 10rem;
+  font-size : 25rem;
+}
+.intro .socialIcons .fa-github {
+  color: white;
+  text-decoration: none;
+  margin-right : 25rem;
+  margin-bottom: 10rem;
+  font-size : 25rem;
+}
+.intro .socialIcons .fa-linkedin {
+  color: white;
+  text-decoration: none;
+  margin-right : 25rem;
+  margin-bottom: 10rem;
+  font-size : 25rem;
+}
+.intro .socialIcons .fa-instagram {
+  color: white;
+  text-decoration: none;
+  margin-right : 25rem;
+  margin-bottom: 10rem;
+  font-size : 25rem;
+}
+/* ____________________________________About Section Styling _______________________________________*/
+section{
+  padding: 100rem;
+}
+
+.about .text4{
+  font-family: 'Baloo Da 2', cursive;
+  font-size: 60rem;
+  color: #00cf5d;
+  margin-top: -41rem;
+  float: right;
+}
+
+.about .line{
+  background:#00cf5d;
+  height: 3rem;
+  width: 630rem;
+}
+
+.about .content{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about .content .aboutLeft{
+  width: 50%;
+}
+
+.about .content .aboutRight{
+  width: 68%;
+  margin: 0rem -265rem;
+}
+
+.about .content .aboutLeft img{
+  max-width: 500rem;
+  max-height: 500rem;
+  margin: 105rem -90rem;
+}
+
+.about .text5{
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15rem;
+}
+
+.about .content .aboutRight .btn {
+  background-color: black;
+  border-color: #00cf5d;
+  color: #00cf5d;
+  padding: 10rem 15rem;
+  text-align: center;
+  font-family: 'Baloo Da 2', cursive;
+  display: inline-block;
+  font-size: 16rem;
+  margin: 10rem 140rem;
+  cursor: pointer;
+}
+
+/* _______________________________ Skills Section Styling __________________________________*/
+.skills .text4{
+  font-family: 'Baloo Da 2', cursive;
+  font-size: 60rem;
+  color: #00cf5d;
+  margin-top: -41rem;
+  float: left;
+}
+
+.skills .line{
+  background:#00cf5d;
+  height: 3rem;
+  width: 630rem;
+  margin: -3rem 238rem;
+}
+
+.skills .skillsContent{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50rem -90rem;
+}
+.skills .skillsLeft{
+  width: 100%;
+}
+.skills .skillsRight{
+  width: 100%;
+}
+
+.skills .text7{
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  margin: 45rem 0rem;
+  font-size: 17rem;
+}
+.skills .text6{
+  font-family: 'Baloo Da 2', cursive;
+  font-size: 35rem;
+  color: #00cf5d;
+  margin: 10rem 80rem;
+}
+/* Skills card design */
+.skills .card {
+  position: relative;
+  background-color: #1d293a;
+  padding: 25rem 25rem 35rem;
+  margin: 50rem;
+  border-radius: 4rem;
+}
+.skills .card h4 {
+  font-size: 22rem;
+  font-family: 'Rubik', sans-serif;
+  color: hsla(0,0%,100%,.85);
+}
+.skills .card p {
+  padding: 6rem 11rem;
+  top: 22rem;
+  font-weight: 900;
+  color: #fff;
+  right: 20rem;
+  position: absolute;
+  background-color: #00cf5d;
+  border-radius: 10rem;
+  font-size: 20rem;
+}
+.skills .card .progressBar {
+  bottom: 0;
+  left: 0;
+  height: 10rem;
+  position: absolute;
+  background-color: #00cf5d;
+  border-radius: 4rem;
+}
+/* Card design ends */
+
+/* _________________________________Experience Section Styling_________________________________ */
+.exp .text4{
+  font-family: 'Baloo Da 2', cursive;
+  font-size: 60rem;
+  color: #00cf5d;
+  margin-top: -41rem;
+  float: right;
+}
+
+.exp .line{
+  background:#00cf5d;
+  height: 3rem;
+  width: 595rem;
+  margin: 0rem -100rem;
+}
+
+ .exp .expContent{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50rem -90rem;
+}
+.exp .expLeft{
+  width: 100%;
+}
+.exp .expMiddle{
+  width: 1%;
+}
+.exp .expRight{
+  width: 100%;
+}
+
+.exp .expMiddle .lineMiddle {
+    background: #00cf5d;
+    height: 815rem;
+    width: 3rem;
+    margin: -20rem 0rem;
+}
+/* Left Card Design */
+.exp .expLeft .card {
+  position: relative;
+  background-color: #1d293a;
+  padding: 25rem 25rem 35rem;
+  margin: 120rem;
+  border-radius: 45rem;
+}
+
+.exp .expLeft .card h4 {
+  font-size: 22rem;
+  font-family: 'Rubik', sans-serif;
+  color: hsla(0,0%,100%,.85);
+}
+.exp .expLeft .card h3{
+  font-size: 16rem;
+  font-family: 'Rubik', sans-serif;
+  color: #00cf5d;
+}
+.exp .expLeft .card p {
+  padding: 1rem 11rem;
+  top: 45rem;
+  font-weight: 900;
+  color: #fff;
+  right: 20rem;
+  position: absolute;
+  background-color: #00cf5d;
+  border-radius: 10rem;
+  font-size: 22rem;
+}
+
+/* Right Card Design */
+.exp .expRight .card {
+  position: relative;
+  background-color: #1d293a;
+  padding: 25rem 15rem 35rem;
+  margin: 120rem;
+  border-radius: 45rem;
+}
+.exp .expRight .card h4 {
+  font-size: 22rem;
+  font-family: 'Rubik', sans-serif;
+  color: hsla(0,0%,100%,.85);
+  margin-left: 34rem;
+}
+.exp .expRight .card h3{
+  font-size: 16rem;
+  font-family: 'Rubik', sans-serif;
+  color: #00cf5d;
+  margin-left: 34rem;
+}
+.exp .expRight .card p {
+  padding: 1rem 11rem;
+  top: 45rem;
+  font-weight: 900;
+  color: #fff;
+  left: 6rem;
+  position: absolute;
+  background-color: #00cf5d;
+  border-radius: 10rem;
+  font-size: 22rem;
+}
+.exp .expRight .card .numRes{
+  display: none;
+}
+
+.exp .circleSection{
+  margin: 0rem 0rem 0rem -158rem;
+}
+.exp .circle{
+    background: #00cf5d;
+    border-radius: 50%;
+    width: 20rem;
+    height: 20rem;
+    margin: 150rem;
+}
+
+
+.altExp{
+  display: none;
+}
+/* _________________________________Project Section Styling_________________________________ */
+
+.project .text4{
+  font-family: 'Baloo Da 2', cursive;
+  font-size: 60rem;
+  color: #00cf5d;
+  margin-top: -41rem;
+  float: left;
+}
+
+.project .line {
+  background: #00cf5d;
+  height: 3rem;
+  width: 640rem;
+  margin: -3rem 315rem;
+}
+
+.project .projectContent{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 110rem -50rem;
+}
+/* flip card design starts */
+.project .flip-card{
+  position: relative;
+  background-color: #0A0A0A;
+  padding: 100rem 0rem 0rem 0rem;
+  border: 1px solid #00cf5d;
+  width: 335rem;
+  height: 335rem;
+  perspective: 1000px;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+.flip-card:hover{
+  transform: rotateY(180deg);
+}
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 335rem;
+  height: 335rem;
+  backface-visibility: hidden;
+}
+
+.flip-card-back {
+  transform: rotateY(180deg);
+  color: white;
+  padding: 0rem 25rem 0rem 25rem;
+  margin-top: -50rem;
+  font-family: 'Rubik', sans-serif;
+  font-size: 15rem;
+}
+.project .projectContent .flip-card .flip-card-back .projectBtn{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding : 0rem 35rem;
+  margin: 10rem 0rem;
+}
+
+/* Card back design ends */
+
+.project .flip-card .projectImg {
+  height: 150rem;
+  width: 150rem;
+  margin: 45rem 90rem;
+}
+
+.project .projectContent .flip-card .font{
+  display: inline-block;
+  margin: -65rem 65rem;
+}
+.project .projectContent .flip-card h4{
+   font-size: 32rem;
+  font-family: 'Rubik', sans-serif;
+  color: hsla(0,0%,100%,.85);
+  text-align: center;
+}
+.project .projectContent .flip-card h3{
+  font-size: 16rem;
+  font-family: 'Rubik', sans-serif;
+  text-align: center;
+  color: hsla(0,0%,100%,.85);
+}
+
+.project .projectContent .flip-card .projectBtn{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding : 0rem 35rem;
+  margin: -55rem 0rem;
+}
+
+/* flip card styling ends */
+
+/* __________________________________Contact Section Styling__________________________________ */
+.contact .text4{
+  font-family: 'Baloo Da 2', cursive;
+  font-size: 60rem;
+  color: #00cf5d;
+  margin-top: -41rem;
+  float: right;
+}
+
+.contact .line{
+  background:#00cf5d;
+  height: 3rem;
+  width: 675rem;
+  margin: -3rem -50rem;
+}
+
+ .contact .expContent{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50rem -90rem;
+}
+
+.contactContent{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 50rem -90rem;
+
+}
+
+.contactContent .contactLeft{
+  width: 100%;
+}
+.contactContent .contactRight{
+  width: 100%;
+}
+
+.contactContent .contactLeft img{
+  height: 600rem;
+  width: 600rem;
+  margin: -65rem -80rem;
+}
+.contactContent .contactRight .text8{
+  font-size: 20rem;
+  font-family: 'Lato', sans-serif;
+  color: hsla(0,0%,100%,.85);
+  text-align: center;
+    margin: 20rem 12rem;
+}
+
+.contactContent .contactRight button{
+  background-color: black;
+  border-color: #00cf5d;
+  color: #00cf5d;
+  padding: 15rem 15rem;
+  text-align: center;
+  font-family: 'Baloo Da 2', cursive;
+  display: inline-block;
+  font-size: 44rem;
+  margin: 15rem 140rem;
+  cursor: pointer;
+  border-radius: 40rem;
+}
+
+.contactContent .contactRight .socialIcons{
+  margin: 0rem 185rem;
+}
+.contactContent .contactRight .socialIcons .fa-facebook {
+  color: white;
+  text-decoration: none;
+  margin-right : 36rem;
+  margin-bottom: 10rem;
+  font-size : 30rem;
+}
+.contactContent .contactRight .socialIcons .fa-twitter {
+  color: white;
+  text-decoration: none;
+  margin-right : 36rem;
+  margin-bottom: 10rem;
+  font-size : 30rem;
+}
+.contactContent .contactRight .socialIcons .fa-linkedin {
+  color: white;
+  text-decoration: none;
+  margin-right : 36rem;
+  margin-bottom: 10rem;
+  font-size : 30rem;
+}
+.contactContent .contactRight .socialIcons .fa-instagram {
+  color: white;
+  text-decoration: none;
+  margin-right : 36rem;
+  margin-bottom: 10rem;
+  font-size : 30rem;
+}
+
+/* _______________________________________Footer Section Styling_______________________________________ */
+.footerContent{
+  margin: -10rem 0rem 0rem 0rem;
+  padding: 10rem 0rem;
+  background: #1d293a;
+  height: 50rem;
+  text-align: center;
+  color: hsla(0,0%,100%,.85);
+  font-family: 'Lato', sans-serif;
+}
+
+.footerContent .text9{
+  font-size: 13rem;
+}
+
+.footerContent img{
+  width: 35rem;
+  height: 35rem;
+  float: right;
+  margin: -42rem 40rem;
+}

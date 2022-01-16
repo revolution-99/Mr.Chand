@@ -1,0 +1,313 @@
+html{
+  font-size: 6.25%;
+}
+
+@media (max-width:998px) {
+  html{
+    font-size: 5.5%;
+  }
+}
+
+@media (max-width:768px) {
+  html{
+    font-size: 4.5%;
+  }
+}
+
+@media (max-width: 480px){
+  html{
+    font-size: 4.3%;
+  }
+  section{
+    padding: 100rem 0rem;
+  }
+  .line{
+    display: none;
+  }
+  /*_____________________________________ Navigation Bar__________________________________ */
+.myNav a:not(:first-child) {
+  display: none;
+}
+.myNav a.icon {
+    margin: 20rem 0rem 0rem 200rem;
+    display: block;
+  }
+
+.myNav.responsive {
+  position: fixed;
+  display: inline;
+}
+.myNav.responsive a.icon {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.myNav.responsive a {
+  float: none;
+  display: block;
+  text-align: center;
+  font-size: 70rem;
+  margin: 0rem 100rem 0rem 0rem;
+  padding: 125rem 0rem 0rem 0rem;
+  font-family: 'Baloo Da 2', cursive;
+}
+
+.myNav a {
+  background-color: #0A0A0A;
+  opacity: 100%;
+}
+
+  /*________________________________________Intro Section________________________________________ */
+  .intro{
+    margin: 0rem 0rem 0rem 0rem;
+    flex-direction: column;
+    color: white;
+  }
+  .intro .text{
+    margin: 0rem 0rem 0rem 0rem;
+  }
+  .intro .text1{
+    font-size: 50rem;
+    margin: 0rem 50rem;
+  }
+  .intro .text2{
+    font-size: 140rem;
+    margin: 0rem 50rem;
+  }
+  .intro .contactBox{
+    display: none;
+  }
+  .intro .text3{
+    display: none;
+  }
+  .intro .forRes{
+    display: flex;
+    flex-direction: column;
+  }
+  .intro .forRes .leftIntro{
+    font-size: 32rem;
+    color: #00cf5d;
+    font-family: 'Baloo Da 2', cursive;
+    margin: 50rem 0rem 0rem 150rem;
+    text-align: center;
+    display: inline;
+  }
+  .intro .forRes .rightIntro{
+    width: 50%;
+  }
+  .intro .forRes .rightIntro img{
+    max-height:600rem;
+    max-width: 600rem;
+    margin-top: -8rem;
+    margin-left: 125rem;
+  }
+  /* __________________________________________About Section__________________________________________ */
+
+  .about .content{
+    flex-direction: column;
+  }
+  .about .content .aboutLeft{
+    width: 50%;
+    margin: 0rem -125rem 0rem 0rem;
+  }
+  .about .content .aboutRight{
+    width: 60%;
+  }
+  .about .text4{
+    text-align: center;
+    font-size: 75rem;
+  }
+  .about .text5{
+    font-size: 25rem;
+    margin: -65rem -550rem 0rem 50rem;
+  }
+  .about .content .aboutLeft img{
+    max-width: 700rem;
+    max-height: 700rem;
+    margin: 200rem -90rem;
+  }
+  .about .content .aboutRight .btn {
+    padding: 20rem 20rem;
+    font-size: 42rem;
+    margin: 60rem 100rem 0rem 200rem;
+  }
+  
+  /* _____________________________________Skills Section_____________________________________ */
+  .skills .skillsContent{
+    flex-direction: column;
+  }
+  .skills .text7{
+    font-size: 25rem;
+    margin: 100rem -200rem 0rem 100rem;
+  }
+  .skills .text4{
+    text-align: center;
+    font-size: 75rem;
+    float: none;
+    margin: 0rem -230rem 0rem 0rem;
+  }
+  .skills .text6{
+    font-size: 48rem;
+    margin: 100rem -200rem 0rem 100rem;
+    text-align: center;
+  }
+  .skills .card{
+    margin: 50rem -50rem 0rem 200rem;
+  }
+
+  /* _______________________________________Experience Section_______________________________________ */
+  .altExp{
+    display: inline;
+  }
+  .altExp .expMiddle {
+    float: left;
+    margin: -1330rem 60rem 0rem 135rem;
+  }
+  .altExp .text4{
+    font-family: 'Baloo Da 2', cursive;
+    font-size: 65rem;
+    color: #00cf5d;
+    margin: 0rem 0rem 0rem 125rem;
+  }
+  .altExp .expMiddle .lineMiddle {
+    background: #00cf5d;
+    height: 1100rem;
+    width: 5rem;
+  }
+  .altExp .circle {
+    background: #00cf5d;
+    border-radius: 50%;
+    width: 25rem;
+    height: 25rem;
+    margin: 225rem -10rem;
+  }
+  .altExp .expContent{
+    display: inline;
+    align-items: center;
+    margin: 50rem -90rem;
+  }
+
+  /* Responsive Experience card design */
+  .altExp .card {
+    position: relative;
+    background-color: #1d293a;
+    padding: 25rem 50rem 25rem 50rem;
+    margin: 120rem 0rem 0rem 200rem;
+    border-radius: 12rem;
+  }
+  .altExp .card h4 {
+    font-size: 22rem;
+    font-family: 'Rubik', sans-serif;
+    color: hsla(0,0%,100%,.85);
+    margin-left: 34rem;
+  }
+  .altExp .card h3{
+    font-size: 16rem;
+    font-family: 'Rubik', sans-serif;
+    color: #00cf5d;
+    margin-left: 34rem;
+  }
+  .altExp .card p {
+    padding: 1rem 11rem;
+    top: 45rem;
+    font-weight: 900;
+    color: #fff;
+    margin: 0rem -22rem;
+    position: absolute;
+    background-color: #00cf5d;
+    border-radius: 10rem;
+    font-size: 22rem;
+  }
+
+  .exp{
+    display: none;
+  }
+  /* _______________________________________Project Section_______________________________________ */
+  .project .projectContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 110rem -90rem;
+  }
+  .project .text4{
+    text-align: center;
+    font-size: 75rem;
+    float: none;
+    margin: 0rem -200rem 0rem 0rem;
+  }
+  .project .flip-card {
+    width: 720rem;
+    height: 720rem;
+    margin: 100rem 0rem 0rem 280rem;
+  }
+  .project .projectContent .flip-card h4 {
+    font-size: 60rem;
+  }
+  .project .projectContent .flip-card h3 {
+    font-size: 35rem;
+  }
+  .project .projectContent .flip-card .font {
+    display: inline-block;
+    margin: 0rem 0rem 0rem 135rem;
+  }
+  .flip-card-front, .flip-card-back {
+    width: 720rem;
+    height: 720rem;
+    font-size: 30rem;
+  }
+  .project .flip-card .projectImg {
+    height: 300rem;
+    width: 300rem;
+    margin: 80rem 180rem;
+  }
+
+  /* ________________________________________Contact Section________________________________________ */
+  .contactContent{
+    flex-direction: column;
+  }
+  .contact .text4 {
+    text-align: center;
+    font-size: 75rem;
+    float: none;
+    margin: 0rem -230rem 0rem 0rem;
+  }
+  .contactContent .contactLeft img {
+    height: 900rem;
+    width: 900rem;
+    margin: 0rem 0rem 0rem 0rem;
+  }
+  .contactContent .contactRight .text8 {
+    margin: 0rem 0rem 0rem 180rem;
+  }
+  .contactContent .contactRight button {
+    font-size: 50rem;
+    margin: 60rem 100rem 0rem 340rem;
+  }
+  .contactContent .contactRight .text8 {
+    font-size: 25rem;
+    font-family: 'Lato', sans-serif;
+    color: hsla(0,0%,100%,.85);
+    text-align: center;
+    margin: 25rem 0rem 0rem 200rem;
+  }
+  .contactContent .contactRight .socialIcons {
+    margin: 75rem 100rem 0rem 370rem;
+  }
+
+/* ________________________________________Footer Section________________________________________ */
+  .footerContent {
+    margin: 0rem -270rem 0rem 0rem;
+    padding: 50rem 0rem 50rem 0rem;
+    height: 150rem;
+  }
+  .footerContent .text9 {
+    font-size: 25rem;
+  }
+  .footerContent img {
+    width: 90rem;
+    height: 90rem;
+    float: right;
+    margin: -250rem 40rem;
+  }
+}
